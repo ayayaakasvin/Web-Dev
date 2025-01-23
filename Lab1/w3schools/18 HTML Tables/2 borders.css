@@ -1,0 +1,43 @@
+/* Initial border for table, th, and td */
+table, th, td {
+    border: 1px solid black;
+}
+
+/* Adding border-collapse property */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/* Changing border color to white */
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+/* Setting background color for th and td */
+th, td {
+    background-color: #96D4D4;
+}
+
+/* Adding border-radius to table, th, and td */
+table, th, td {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+/* Adding border-radius to th and td */
+th, td {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+/* Changing border style to dotted for th and td */
+th, td {
+    border-style: dotted;
+}
+
+/* Changing border color for th and td */
+th, td {
+    border-color: #96D4D4;
+}

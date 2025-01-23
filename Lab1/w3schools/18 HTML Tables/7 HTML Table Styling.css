@@ -1,0 +1,36 @@
+/* 
+    This CSS file contains styling rules for HTML tables.
+
+    1. td:nth-child(even), th:nth-child(even):
+         - Applies a background color of #D6EEEE to every even <td> and <th> element.
+
+    2. tr:nth-child(even):
+         - Applies a semi-transparent background color (rgba(150, 212, 212, 0.4)) to every even <tr> element.
+
+    3. th:nth-child(even), td:nth-child(even):
+         - Applies a semi-transparent background color (rgba(150, 212, 212, 0.4)) to every even <th> and <td> element.
+         - Note: This rule overrides the first rule for even <td> and <th> elements.
+
+    4. tr:
+         - Adds a bottom border of 1px solid #ddd to all <tr> elements.
+
+    5. tr:hover:
+         - Changes the background color to #D6EEEE when the user hovers over any <tr> element.
+*/
+td:nth-child(even), th:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+
+  tr:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+  }
+  
+  th:nth-child(even),td:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+  }
+
+  tr {
+    border-bottom: 1px solid #ddd;
+  }
+
+  tr:hover {background-color: #D6EEEE;}

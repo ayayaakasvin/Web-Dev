@@ -1,0 +1,17 @@
+/* Apply padding to table header and table data cells */
+th, td {
+  padding: 15px;
+}
+
+/* Override padding for table header and table data cells */
+th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+/* Set spacing between table cells */
+table {
+  border-spacing: 30px;
+}
