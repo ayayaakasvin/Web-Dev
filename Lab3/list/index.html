@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoDo</title>
+    <link rel="icon" href="assets/images/tododo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img id="header_logo" src="assets/images/tododo_icon.png">
+    </header>
+    <main>
+        <div id="list_body">
+            <h1>ToDo List</h1>
+            <div class="task-input">
+                <input type="text" id="task" placeholder="New Task">
+                <button id="addTask" onclick="addListItem()">Add</button>
+            </div>
+            <ul id="task_list">
+                <li>
+                    <input type="checkbox" class="complete" onclick="completeTask(this)">
+                    <p class="task">First item</p>
+                    <img class="garbage" onclick="deleteListItem(this)" src="assets/images/garbage.png" alt="Delete">
+                </li>
+            </ul>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
