@@ -1,0 +1,133 @@
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  width: 300px; /* Increased width by 100 pixels */
+  height: 500px; /* Increased height by 100 pixels */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden; /* Prevent content overflow */
+  background-color: #f8f9fa; /* Light gray background */
+  color: black;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: 150px; /* Adjusted height to fit the new box size */
+  object-fit: contain; /* Ensure images cover the area without distortion */
+  border-radius: 4px;
+  flex-shrink: 0; /* Prevent image from shrinking */
+}
+
+.product-card h3 {
+  font-size: 1.2em;
+  margin: 8px 0;
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflow text */
+  text-overflow: ellipsis; /* Add ellipsis for overflow text */
+  color: black; /* Ensure text color is black */
+}
+
+.product-card p {
+  font-size: 0.9em;
+  color: #666;
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflow text */
+  text-overflow: ellipsis; /* Add ellipsis for overflow text */
+  color: black; /* Ensure text color is black */
+}
+
+.product-card .rating {
+  font-size: 0.9em;
+  margin: 8px 0;
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflow text */
+  text-overflow: ellipsis; /* Add ellipsis for overflow text */
+  color: black; /* Ensure text color is black */
+}
+
+.product-card a {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.product-card a:hover {
+  background-color: #0056b3;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-card button {
+  margin-top: 8px;
+  padding: 8px 16px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.product-card button#Telegram {
+  background-color: #0088cc; /* Telegram blue */
+}
+
+.product-card button#Telegram:hover {
+  background-color: #006699; /* Darker blue on hover */
+}
+
+.product-card button#WhatsApp {
+  background-color: #25d366; /* WhatsApp green */
+}
+
+.product-card button#WhatsApp:hover {
+  background-color: #1da851; /* Darker green on hover */
+}
+
+.product-card button#Kaspi {
+  background-color: rgb(255, 0, 0); /* WhatsApp green */
+}
+
+.product-card button#Kaspi:hover {
+  background-color: #a81d1def; /* Darker green on hover */
+}
+
+.product-card button#Delete {
+  background-color: #dc3545; /* Bootstrap danger red */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 8px;
+  padding: 8px 16px;
+  transition: background-color 0.2s;
+}
+
+.product-card button#Delete:hover {
+  background-color: #c82333;
+}
+
+.product-card button#Like {
+  background-color: transparent;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: #e25555; /* a nice red for the heart */
+  transition: color 0.2s;
+  padding: 0;
+  margin-left: 8px;
+}
+
+.product-card button#Like:hover {
+  color: #a83838;
+}
