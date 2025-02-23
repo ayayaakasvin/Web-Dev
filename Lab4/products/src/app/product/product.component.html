@@ -1,0 +1,8 @@
+<section class="product-card">
+    <img [src]="product.image" alt="Product Image">
+    <h3>{{ product.name }}</h3>
+    <p>{{ product.description }}</p>
+    <section class="rating">Rating: {{ product.rating }} ★</section>
+    <button (click)="shareOnTelegram(product.link)" id="Telegram">Share on Telegram</button>
+    <button (click)="shareOnWhatsApp(product.link)" id="WhatsApp">Share on WhatsApp</button>
+</section>

@@ -1,0 +1,8 @@
+<app-header [header]="headerInput"></app-header>
+<main>
+  <h2>Products</h2>
+  <section class="product-container">
+    <app-product *ngFor="let prod of products" [product]="prod"></app-product>
+  </section>
+</main>
+<app-footer [author]="author"></app-footer>
