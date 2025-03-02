@@ -1,0 +1,6 @@
+<a [routerLink]="['/albums', album.id]">
+    <section>
+        <p>{{ album.title }}</p>
+        <button (click)="deleteEmitter(album.id); $event.stopPropagation()" >Delete</button>
+    </section>
+</a>

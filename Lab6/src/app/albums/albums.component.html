@@ -1,0 +1,12 @@
+<section>
+    <h2>Albums</h2>
+    <section>
+        <app-album-container 
+        *ngFor="let album of filteredAlbums" 
+        [album]="album" 
+        (deleteAlbum)="deleteAlbum(album.id)"
+        >
+
+        </app-album-container>
+    </section>
+</section>

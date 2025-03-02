@@ -1,0 +1,37 @@
+/* Center content horizontally */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Style for the link wrapper */
+  .linker {
+    text-decoration: none;
+    margin: 10px;
+  }
+  
+  /* Style for the button */
+  .linker button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  /* Hover and active states */
+  .linker button:hover {
+    background: #0056b3;
+  }
+  
+  .linker button:active {
+    background: #004085;
+    transform: translateY(1px);
+  }
+  

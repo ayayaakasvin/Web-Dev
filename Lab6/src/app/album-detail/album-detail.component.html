@@ -1,0 +1,33 @@
+
+<ng-container *ngIf="album; else noAlbum">
+    <section class="album-details" *ngIf="album">
+        <header>
+            <h2>Task Details</h2>
+        </header>
+        
+        <section class="album-info">
+            <div class="album-field">
+                <strong>Album ID:</strong> {{album.id}}
+            </div>
+            <div class="album-field">
+                <strong>Title:</strong>
+                <input [(ngModel)]="album.title">
+                <button (click)="saveTitle()">Save</button>
+                <button (click)="returnTitle()">Return</button>
+            </div>
+            <div class="album-field">
+                <strong>User ID:</strong> {{album.userId}}
+            </div>
+
+            <a routerLink="photos">
+                <button>Photos</button>
+            </a>
+        </section>
+    </section>
+</ng-container>
+<ng-template #noAlbum>
+    <section id="no-album">
+        <h2>Uh-oh, album does not exist</h2>
+    </section>
+</ng-template>
+<app-linker></app-linker>

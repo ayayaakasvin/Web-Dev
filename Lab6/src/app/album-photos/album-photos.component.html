@@ -1,0 +1,14 @@
+<ng-container *ngIf="photos else noPhotos">
+    <header>Photos</header>
+    <div class="photo-container">
+      <div class="photo-box" *ngFor="let photo of photos">
+        <h2>{{ photo.id }}</h2>
+        <img [src]="photo.url" [alt]="photo.title">
+        <img [src]="photo.thumbnailUrl" [alt]="photo.title">
+      </div>
+    </div>
+</ng-container>
+<ng-template #noPhotos>
+    <strong>No Photos</strong>
+</ng-template>
+<app-linker></app-linker>

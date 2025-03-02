@@ -1,0 +1,44 @@
+.album-details {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+h2 {
+    color: #333;
+    margin: 0 0 10px 0;
+}
+
+.album-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.album-field {
+    line-height: 1.5;
+}
+
+.album-field strong {
+    color: #555;
+    margin-right: 8px;
+}
+
+#no-album {
+    text-align: center;
+    color: #555;
+    margin-top: 20px;
+}
+
+#no-album h2 {
+    color: #007bff;
+    text-decoration: none;
+}

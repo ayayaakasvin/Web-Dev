@@ -1,0 +1,23 @@
+.linker {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background: #007bff;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, transform 0.1s;
+  }
+  
+  .linker:hover {
+    background: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  .linker:active {
+    background: #004085;
+    transform: translateY(1px);
+  }
+  
