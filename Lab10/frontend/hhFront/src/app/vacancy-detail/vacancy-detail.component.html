@@ -1,0 +1,8 @@
+<section class="vacancy-detail-page">
+    <p class="company-name">Company: {{ vacancy.company.name }}</p>
+    <p class="company-description">Company description: {{ vacancy.company.description }}</p>
+    <p class="vacancy-name">Vacancy: {{ vacancy.name }}</p>
+    <p class="vacancy-description">Description: {{ vacancy.description }}</p>
+    <p class="vacancy-salary">Salary: {{ vacancy.salary }}$</p>
+    <button type="button" class="apply-button" (click)="onClick()">Apply</button>
+</section>

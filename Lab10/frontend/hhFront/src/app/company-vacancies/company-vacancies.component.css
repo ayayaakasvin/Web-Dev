@@ -1,0 +1,35 @@
+/* Container for the entire company and vacancies */
+section {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Company info section */
+#company {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+#company h2 {
+    margin-top: 0;
+    font-size: 1.8em;
+    color: #333;
+}
+
+#company p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 1em;
+}
+
+app-vacancy-window {
+    display: block;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,30 @@
+.vacancies-section {
+    padding: 3rem 2rem;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #333;
+}
+
+.vacancy-item {
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .vacancies-section {
+        padding: 2rem 1.5rem;
+    }
+
+    .section-title {
+        font-size: 1.6rem;
+    }
+}

@@ -1,0 +1,40 @@
+header {
+  background-color: #333;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 2px -2px gray;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header a:hover h1 {
+  color: #f0c040;
+}
+
+.top-ten-button {
+  font-size: 1.2rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #f0c040;
+  color: #fff;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+.top-ten-button:hover {
+  background-color: #d19c00;
+}

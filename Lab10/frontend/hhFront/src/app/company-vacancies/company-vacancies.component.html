@@ -1,0 +1,9 @@
+<section>
+    <section id="company">
+        <h2>Company: {{company.name}}</h2>
+        <p>Description: {{company.description}}</p>
+        <p>City: {{company.city}}</p>
+        <p>Address: {{company.address}}</p>
+    </section>
+    <app-vacancy-window *ngFor="let vacancy of vacancies" [vacancy]="vacancy"></app-vacancy-window>
+</section>
